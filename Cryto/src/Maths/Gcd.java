@@ -24,7 +24,7 @@ public class Gcd
 		   r1=r2;
 		   r2=r;
 	   }
-	   System.out.println("GCD 0F"+"("+n1+","+n2+")"+"is : "+r1);
+	   //System.out.println("GCD 0F"+"("+n1+","+n2+")"+"is : "+r1);
 	   return r1;
    }
 }
