@@ -17,7 +17,7 @@ public class Extended_Euclidean
 
 	}
 	
-	public void calextended(long n1,long n2)
+	public long calextended(long n1,long n2)
 	{
 		long r1=n1,r2=n2,r=0,s=0,s1=1,s2=0,t1=0,t2=1,q=0;
 		while(r2>0)
@@ -33,7 +33,10 @@ public class Extended_Euclidean
 		   t1=t2;
 		   t2=t;
 		}
-		System.out.println("S :"+s1+" T :"+t1);
+		s=s1;
+		t=t1;
+		//System.out.println("S :"+s+" T :"+t);
+		return r1;
 	}
 	public long getS() 
 	{
