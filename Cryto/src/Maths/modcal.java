@@ -10,7 +10,7 @@ package Maths;
  */
 public class modcal {
 
-public int calmod(int n1,int n2)
+public long calmod(long n1,long n2)
 {return n1%n2;
 }
 }

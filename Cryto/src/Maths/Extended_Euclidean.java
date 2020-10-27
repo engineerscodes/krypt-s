@@ -10,16 +10,16 @@ import java.util.*;
  */
 public class Extended_Euclidean
 {
-    int s,t;
+    long s,t;
 
 	public Extended_Euclidean()
 	{
 
 	}
 	
-	public void calextended(int n1,int n2)
+	public void calextended(long n1,long n2)
 	{
-		int r1=n1,r2=n2,r=0,s=0,s1=1,s2=0,t1=0,t2=1,q=0;
+		long r1=n1,r2=n2,r=0,s=0,s1=1,s2=0,t1=0,t2=1,q=0;
 		while(r2>0)
 		{
 		   q=r1/r2;
@@ -35,12 +35,12 @@ public class Extended_Euclidean
 		}
 		System.out.println("S :"+s1+" T :"+t1);
 	}
-	public int getS() 
+	public long getS() 
 	{
 		return s;
 	}
 
-	public int getT()
+	public long getT()
 	{
 		return t;
 	}
