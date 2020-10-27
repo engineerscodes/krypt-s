@@ -11,7 +11,7 @@ import java.util.*;
 public class Gcd 
 {
     int gcd;
-	public Gcd() 
+	public Gcd()   //gcd of (a,b)=gcd(b,a)
 	{
      
 	}
