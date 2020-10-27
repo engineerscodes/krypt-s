@@ -10,4 +10,5 @@ package ALGO;
 /*
  * Contains all CRYTO ALGO IN JAVA
  * 1) ADDITIVE INVERSE
+ * 2)Mutiplicative Inverse
  */
