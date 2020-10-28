@@ -29,7 +29,7 @@ public class Multiplicative_ciphers
 			
 			if(map.containsKey(ch[i]))
 			{	int temp=map.get(ch[i]);
-			System.out.println(temp+" "+key);
+			//System.out.println(temp+" "+key);
 			    int sum=((temp*key)%26)+65;
 			   output+=((char)sum);    
 			}
