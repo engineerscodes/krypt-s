@@ -20,7 +20,7 @@ public class Mutiplicative_Inverse {
 
 public static void main(String ...strings)
 {
-	new  Mutiplicative_Inverse ().inverse(11);
+	new  Mutiplicative_Inverse ().inverse(26);
 }
 
 public Map inverse(int n)
@@ -40,9 +40,9 @@ for(Object i:list)
 	{
 		if((Integer.parseInt(i.toString())*Integer.parseInt(j.toString()))%n==1)
 		{
-			if(map.containsKey(j)||map.containsValue(i))
-			{}
-			else
+			///if(map.containsKey(j)||map.containsValue(i))
+			//{}
+			//else
 				map.put(i,j);
 		}
 	}
