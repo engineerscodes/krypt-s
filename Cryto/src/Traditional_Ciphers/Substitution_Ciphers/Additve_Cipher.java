@@ -36,7 +36,7 @@ public class Additve_Cipher
 		
 		map.put((char)32,32);
 		map.put((char)46,46);
-		System.out.println(" "+map);
+		//System.out.println(" "+map);
 	}
 	
 	public String encryption(String input,int key)
