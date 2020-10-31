@@ -24,11 +24,11 @@ public class Affine_Ciphers
     {
     	Additve_Cipher ac=new Additve_Cipher();
     	String cpt1=ac.decryption(input, key);
-    	System.out.println("addtive decode ="+cpt1);
+    	//System.out.println("addtive decode ="+cpt1);
     	Multiplicative_ciphers mc=new Multiplicative_ciphers();
     	 String output=mc.getkeyInverse(cpt1, key2);
     	//String output=mc.decryption2(cpt1, key2);
-    	System.out.println(" final decode ="+output);
+    	System.out.println(" Final decode ="+output);
     	return "";
     }
 	public static void main(String[] args) 
