@@ -54,11 +54,11 @@ public class Additve_Cipher
 			}
 		}
 		System.out.println(output);
-		decryption();
+		decryption(output,key);
 		return output;
 	}
 	
-	public String decryption()
+	public String decryption(String output,int key)
 	{
       char ch[]=output.toCharArray();
 		String output2="";
