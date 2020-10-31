@@ -39,11 +39,11 @@ public class Multiplicative_ciphers
 			}
 		}
 		System.out.println(output);
-		getkeyInverse();
+		//getkeyInverse();
 		return output;
 	}
 
-	public void getkeyInverse() 
+	public String getkeyInverse(String output,int key) 
 	{
 		Invermap=new  Mutiplicative_Inverse ().inverse(26);
 		//System.out.print(Invermap);
@@ -51,7 +51,7 @@ public class Multiplicative_ciphers
 		{
 			inverseKey=Invermap.get(key);
 		}
-		decryption2( output,inverseKey);
+		return decryption2( output,inverseKey);
 	}
 	public String decryption2(String output,int Keys)
 	{ 
@@ -80,8 +80,9 @@ public class Multiplicative_ciphers
 	}
 public static void main(String ...strings)
   {
-	  new  Multiplicative_ciphers().encryption("HELLO",21);
+	  new  Multiplicative_ciphers().encryption("JGNNQ",7);
   }
+
 
 }
 
