@@ -38,7 +38,7 @@ public class Multiplicative_ciphers
 			   output+=((char)sum);    
 			}
 		}
-		System.out.println(output);
+	//	System.out.println(output);
 		//getkeyInverse();
 		return output;
 	}
@@ -75,7 +75,7 @@ public class Multiplicative_ciphers
 			   output2+=((char)sum);    
 			}
 		}
-		System.out.print(output2);
+		//System.out.print(output2);
 		return output2;
 	}
 public static void main(String ...strings)
