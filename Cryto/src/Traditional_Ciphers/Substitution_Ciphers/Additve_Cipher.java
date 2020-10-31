@@ -53,7 +53,7 @@ public class Additve_Cipher
 			   output+=((char)sum);    
 			}
 		}
-		System.out.println(output);
+		//System.out.println(output);
 		decryption(output,key);
 		return output;
 	}
@@ -79,7 +79,7 @@ public class Additve_Cipher
 			   output2+=((char)sum);    
 			}
 		}
-		System.out.println(output2);
+		//System.out.println(output2);
 		return output2;
 	}
   public static void main(String ...strings)
