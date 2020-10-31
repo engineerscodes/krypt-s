@@ -47,7 +47,7 @@ for(Object i:list)
 		}
 	}
 }
-System.out.println(map);
+//System.out.println(map);
 	return map;
 }
 
