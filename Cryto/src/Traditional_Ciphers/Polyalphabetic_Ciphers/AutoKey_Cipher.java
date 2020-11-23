@@ -60,7 +60,7 @@ public class AutoKey_Cipher
 	{
 		AutoKey_Cipher ac=	new AutoKey_Cipher();
         String output=ac.insert("attack",12);
-        System.out.println("\nENCODED MESSAGE===>"+output);
+        System.out.println("\nENCODED MESSAGE===:  "+output);
         ac.decode(output, 12);
         
 	}
