@@ -15,7 +15,7 @@ public class GetSetsElement
 	{   Set s=new LinkedHashSet(n);
 		for(int i=0;i<n;i++)
 			s.add(i);
-		//System.out.println(s);
+		System.out.println("Set 26"+s);
 		return s;
 	}
 	

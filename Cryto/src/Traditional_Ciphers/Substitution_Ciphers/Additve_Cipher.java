@@ -71,7 +71,7 @@ public class Additve_Cipher
 			    if(sum<0)
 			    {
 			    	 //for negative number mod  
-			      // -15 mod26 =15 in java but its 11 to fix it u have to add 25+(-15)=11
+			      // -15 mod26 =15 in java but its 11 to fix it u have to add 26+(-15)=11
 			    	sum=26+sum;
 			    }
 			    sum=sum+65;

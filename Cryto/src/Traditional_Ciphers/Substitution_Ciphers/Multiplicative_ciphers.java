@@ -81,6 +81,7 @@ public class Multiplicative_ciphers
 public static void main(String ...strings)
   {
 	  new  Multiplicative_ciphers().encryption("JGNNQ",7);
+	  
   }
 
 

@@ -7,9 +7,6 @@ import java.util.Set;
 import Maths.GetSetsElement;
 import Maths.Extended_Euclidean;
 import Maths.Gcd;
-/**
- * 
- */
 
 /**
  *  @author M.NAVEEN
@@ -34,6 +31,7 @@ for(Object i:s)
 		list.add(i);
 	}
 }
+System.out.println("list :"+list);
 for(Object i:list)
 {
 	for(Object j:list)
@@ -47,7 +45,7 @@ for(Object i:list)
 		}
 	}
 }
-//System.out.println(map);
+System.out.println(map);
 	return map;
 }
 
